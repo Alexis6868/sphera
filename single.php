@@ -9,7 +9,7 @@ if (have_posts()) : while (have_posts()) : the_post(); ?>
         <p><strong>Date :</strong> <?php the_field('date'); ?></p>
         <p><strong>Texte :</strong> <?php the_field('texte'); ?></p>
         <p><strong>Client :</strong> <?php the_field('client'); ?></p>
-        <p><strong>Technologies :</strong> <?php the_field('liens'); ?></p>
+        <p><strong>lien :</strong><a href="<?php the_field('liens'); ?>"></p>
         <a href="<?php echo home_url('/projet'); ?>" target="_blank">Retour</a>
     </div>
 <?php endwhile; endif;
