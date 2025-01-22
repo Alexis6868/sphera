@@ -1,0 +1,117 @@
+/* Heroes section */
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#container3D {
+  margin-right: 16px;
+}
+aside {
+  max-width: 600px;
+  margin-left: 32px;
+}
+.call {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+.CTAW {
+  background-color: var(--white);
+  padding: 12px;
+  border-radius: 4px;
+  color: var(--background-color);
+  cursor: pointer;
+}
+
+/* Stat Sections */
+
+.stat {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 128px;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  height: 80vh;
+}
+.stat-info {
+  max-width: 400px;
+}
+.bento {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px;
+  gap: 32px;
+  max-width: 800px;
+}
+
+.box {
+  padding: 16px;
+  background-color: var(--white);
+  color: var(--background-color);
+  border-radius: 18px;
+  text-align: center;
+}
+.up {
+  transform: translateY(32px);
+}
+.down {
+  transform: translateY(-32px);
+}
+.bento > div:first-child {
+  background: linear-gradient(70deg, var(--primary-color), rgb(0, 54, 105));
+  color: white;
+}
+
+/* Team section*/
+
+.team-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  max-width: 60vw;
+}
+.profil {
+  text-align: center;
+  margin: 32px;
+}
+.name{
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 8px;  
+}
+
+  /* Recall Section */
+
+.upside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 20vh;
+  margin: 128px;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+.media > a {
+  padding: 8px;
+  background: linear-gradient(70deg, var(--primary-color), var(--secondary-color));
+  border-radius: 20px;
+}

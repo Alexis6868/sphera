@@ -1,0 +1,84 @@
+/*
+Theme Name: Sphera - Website
+Author: Sphera
+Description: Thème officiel de l'agence Sphera
+Version: 2.0
+*/
+:root {
+  /* Couleurs principales */
+  --primary-color: #0073e6; /* Bleu principal */
+  --secondary-color: #253453; /* Bleu secondaire */
+  --background-color: #0d1628; /* Couleur de fond */
+  --text-color: #333333; /* Texte principal */
+  --footer-bg-color: #222222; /* Fond du pied de page */
+  --white: #ffffff; /* Texte du pied de page */
+  --font: "Gotham"; /* Police de caractères */
+}
+
+body {
+  margin: 0px;
+  background-color: var(--background-color);
+  color: var(--white);
+  font-family: var(--font);
+  scroll-behavior: smooth;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  position: sticky;
+  top: 24px;
+}
+nav {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  font-size: 4em;
+  margin-bottom: 18px;
+}
+section {
+  height: 100vh;
+}
+
+.CTA {
+  background: linear-gradient(70deg, var(--primary-color), rgb(0, 54, 105));
+  padding: 12px;
+  border-radius: 4px;
+}
+footer > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+.social{
+  display: flex;
+  gap: 12px;
+}
+.social>a{
+  padding: 8px;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+hr{
+  border: 1px solid var(--secondary-color);
+  width: 90%;
+}
